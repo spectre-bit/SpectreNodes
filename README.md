@@ -13,7 +13,7 @@ clone this repository in your ComfyUI\custom_nodes folder and then build the C++
 - A build tool (recommendation: Ninja)
 - Python installation with development headers and libraries (which is the standard)
 
-in the cmake command you need to do `-DPYTHON_VERION="3.<xx>"` replace \<xx\> with the minor release verion of the python version you are using in your ComfyUI venv otherwise the node will not work.
+in the cmake command you need to do `-DPYTHON_VERSION="3.<xx>"` replace \<xx\> with the minor release verion of the python version you are using in your ComfyUI venv otherwise the node will not work.
 
 ## tutorial
 
